@@ -1,0 +1,80 @@
+@media screen and (max-width:576px){
+    .section6 .cards-container{
+        flex-direction: column;
+        gap: 30px;
+        width: 90% !important;
+    }
+    .cards-container .part{
+        width: 100% !important;
+        gap: 30px;
+    }
+    .cards-container .card{
+        width: 100%;
+    }
+    .section7{
+        width: 100%;
+    }
+    .section7 .news{
+        flex-direction: column;
+        gap: 30px;
+        width: 100%;
+    }
+    .news .new{
+        width: 100%;
+    }
+    .section8{
+        width: 90%;
+        margin: auto;
+    }
+    .collections .samesample{
+        width: 100%;
+        margin: auto;
+    }
+    .section10{
+        width: 100%;
+    }
+   
+    .section9-child{
+        width: 100%;
+        flex-direction: column;
+    }
+    .section9-child>p:first-child {
+        width: 0;
+        height: 0;
+        display:none;
+       
+    }
+    
+    .section9-child :nth-child(3) {
+        width: 0;
+        height: 0;
+        display:none;
+    }
+    .section10-child{
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+    .email .emailimg{
+        width: 90%;
+        margin: auto;
+        margin-top: 20px;
+       
+        }
+        .section11-child{
+            width: 90%;
+        flex-direction: column;
+        text-align: center;
+        gap: 50px;
+           
+        }
+        .section11-child .child1{
+            width: 90%;
+            text-align: center;
+        }
+        .child1 .childlogo{
+            width: 120px;
+            height: 60px;
+            margin: auto;
+        }
+}
